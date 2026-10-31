@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fluchtspiel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="hud">
+        <div><strong>Lebensenergie:</strong> <span id="lives">3</span></div>
+        <div><strong>Objekte:</strong> <span id="items">0/3</span></div>
+        <div><strong>Status:</strong> <span id="status">Laufe</span></div>
+      </div>
+      <canvas id="game" width="900" height="560"></canvas>
+      <div class="controls">
+        Bewege dich mit WASD oder den Pfeiltasten. Sammle 5 Energiequellen und schlage die Verfolger, dann fliehe durch das Tor.
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
